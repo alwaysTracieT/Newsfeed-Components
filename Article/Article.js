@@ -32,3 +32,4 @@ let articles = document.querySelectorAll(".article");
 articles.forEach( (articleElement) => {
     return new Article(articleElement);
 })
+
